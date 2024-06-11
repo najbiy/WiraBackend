@@ -93,8 +93,10 @@ class FirebaseAuthController {
   }
 
   storeData(req, res) {
-    const email = req.user.email;
-    const { kidName, kidAge, kidDescription } = req.body;
+    const { email, kidName, kidAge, kidDescription } = req.body;
+    if (!email || !kidName || !kidAge || !kidDescription) {
+        return res.status(400).json({ error: 'Missing required fields' });
+    }
 
     storeData(email, kidName, kidAge, kidDescription)
         .then(success => {
