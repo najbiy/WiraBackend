@@ -7,6 +7,7 @@ const {
   sendPasswordResetEmail
  } = require('../config/firebase');
 const auth = getAuth();
+const { storeData } = require('../services/storeData.js');
 
 class FirebaseAuthController {
   registerUser(req, res) {
@@ -90,6 +91,24 @@ class FirebaseAuthController {
         res.status(500).json({ error: "Internal Server Error" });
       });
   }
+
+  storeData(req, res) {
+    const email = req.user.email;
+    const { kidName, kidAge, kidDescription } = req.body;
+
+    storeData(email, kidName, kidAge, kidDescription)
+        .then(success => {
+            if (success) {
+                return res.status(200).json({ message: 'Data stored successfully' });
+            } else {
+                return res.status(500).json({ error: 'Failed to store data' });
+            }
+        })
+        .catch(error => {
+            console.error('Error storing data:', error);
+            return res.status(500).json({ error: 'Internal Server Error' });
+        });
+  };
 
 }
 
