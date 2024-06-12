@@ -1,5 +1,5 @@
 const {Storage} = require('@google-cloud/storage');
-const serviceAccountKey = require('../../key/wira-wicara-cdfd61130df4.json'); 
+const serviceAccountKey = require('../../key/example.json'); 
 
 const storage = new Storage({
   credentials: serviceAccountKey,
