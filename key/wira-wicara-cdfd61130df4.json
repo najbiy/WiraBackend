@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "wira-wicara",
+  "private_key_id": "cdfd61130df4c66244feac68365d87256bb4f075",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC98ck4mmz+jdI9\nZQ0b6cEfQTWQLqdFG6Rg3lGIWMyQVEHW3G2aEUjLqMNaOefEzSdKehW5OY16fW2K\njb/DGRgEr7EFmHVOVi+e0R/yJ2yZKq/gRrRYMgp2bVyfYmMvE1HPAGqTCKx3VTwt\nw6ik4ysFQWV6RgLCr4ty7ESWs7MvXpS6lcERb/wTAPV5YhEVQw9om6UnsqTlBURD\nINAMM3EddIeC4f0UMaKIhbVMDk1qwSotB1qqJ8HD+yfxgnpj7Absta4JLFf1bz25\nAkhAC0wWu6aZlb+bSRhupg3JkOweZ84t7zKzVjKDFL2fkoRgxAPqgrnQu/X6tE3M\nzZoTn6YhAgMBAAECggEAAr0HInabe/9YbhkpsLgp2BpXvC3oAceNvaBxkCPTmIBr\nzeix+HwnpAQEA6Ynu2nHwhDzhOREWrqPMeWsQ5L2NS8WlWw8GLaGYOWb7nZMta1C\nCYY2GGVpoDPLF43SvJLXOu2YcRPkGfj+cUchBHY1SxHvysJSojLnXESgEoTMYFzt\ngOQmPLQAqCVw8iv8xicsIgQaXBbWg2aOQHQYuOQm9mMBPpkUyRqhrKBdtdqdHPsM\ntcZNDSmsVlUyaOboFvfOwjYjx/a87MEIIz5/+IZVG3VwBJbt+0sSfY78nHoCnwuF\npDUHRYZkoBUHO0EOuHkanTJYKK72MldA3+Tz/Ci2TwKBgQDtTs6xkZTGjcWf9dZk\nPgIOLZPNDAuHwD3JlwI26kDYCKqd5TUI0zWU5KBJJM4VrGuyE/+fBgGhs6mssk6v\nVuXUCDNqrQM53PuEiym5gwokqfDCdiR1Ose0gvM2gOqwuk003Qou9oL81sLeXijl\nyOYw/0W1FCSpWTQcahv6hi4cHwKBgQDM5+uaiQx4FoX0e+6V6GIeTm4GY09YJUHc\nZDlf1KBQl560wNsL9OqAc7OoVZXYkf1nnhuDnC95EXuu+JR6emEV2dV9uJf3FM5W\n4s0qKj/jP3yvHaGipTib+KpClr1TiRgzPgSKYki3AxJXHkqxdgAeywHD7XbdAkmh\nBVqi/9H1vwKBgHUD8y/kFXSC2/wwgPMVEHZlSwhE9DqQNOd+qvzhLfBY9ai+KRSc\n8ULmKZNnrqdJSiGZcua7U3qk2PnrQpl7RAD1ukTT409ZBD0rUfvD/fBuS+XX08pq\nnacJG1y43QEgHIoApNDbhWOfkp+L1qbYFYn7lifgMuO+tM9+EyXJnFsJAoGAT9sO\nugIxRtfYSsjF2cxf+NmuDXVEpeCXQ1IX/h36gI4mfuEuPQGtJnRxDuiT5nw22twG\ncws6gR9sKWudSgJJtd9YUY/QQa3tIHVxab5feavzZrfQl3d2kWqeyCbBED48nTPN\nRzU4i4J58lPO3kxTjaymOnpgOY+7rDJO+XljlTcCgYEAw9amugjckqUYse6XuScn\nG+SPz9D4Ul/3HS87K4OtavTLUQTZFuVR0K7LECrfqcE3rXAdgSjiL5fR9q9henPX\nYYds+eVOsMSyFysedJ0yw7TVsJGN/xGVcsBzemQxgcUSJ0BAQhn+Z69gkEmc33CS\nXO8xsqs6qcwBVjz035QELSg=\n-----END PRIVATE KEY-----\n",
+  "client_email": "storage-object-admin@wira-wicara.iam.gserviceaccount.com",
+  "client_id": "115077992245936578404",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/storage-object-admin%40wira-wicara.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
