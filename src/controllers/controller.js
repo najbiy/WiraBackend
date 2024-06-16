@@ -5,7 +5,7 @@ const {
   signOut, 
   sendEmailVerification,
   sendPasswordResetEmail
- } = require('../config/firebase');
+ } = require('../config/firebase.js');
 const auth = getAuth();
 const { storeData } = require('../services/storeData.js');
 
