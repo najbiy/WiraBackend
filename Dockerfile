@@ -19,9 +19,3 @@ EXPOSE 8080
 # Command to run your application with nodemon
 CMD ["npm", "start"]
 
-ENV FIREBASE_API_KEY=AIzaSyDwyW6cP6JsDfy3Ax_-_0BBkfr8PXFIS0w
-ENV FIREBASE_AUTH_DOMAIN=wira-wicara.firebaseapp.com
-ENV FIREBASE_PROJECT_ID=wira-wicara
-ENV FIREBASE_STORAGE_BUCKET=wira-wicara.appspot.com
-ENV FIREBASE_MESSAGING_SENDER_ID=292861095320
-ENV FIREBASE_APP_ID=1:292861095320:web:4320b03a2c6777a2cecfed
