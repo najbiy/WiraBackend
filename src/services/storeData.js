@@ -1,9 +1,9 @@
 const { Firestore } = require('@google-cloud/firestore');
 const db = new Firestore({ projectId: 'wira-wicara', databaseId: 'ml-histories' });
 
-async function storeData(email, kidName, kidAge, kidDescription) {
+async function storeData(username, kidName, kidAge, kidDescription) {
     try {
-        const userRef = db.collection('data_anak').doc(email);
+        const userRef = db.collection('data_anak').doc(username);
         await userRef.set({
             kids: {
                 [kidName]: {
